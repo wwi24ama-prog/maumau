@@ -5,7 +5,7 @@ package suit
 // Man kann nicht einfach jedes int verwenden, sondern nur die definierten Konstanten.
 type Suit int
 
-// Symbole für die Karten-Farben.
+// Konstanten für die Karten-Farben.
 const (
 	Clubs Suit = iota
 	Spades
